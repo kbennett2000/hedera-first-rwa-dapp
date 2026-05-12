@@ -4,6 +4,7 @@
 A beginner-to-intermediate educational template that demonstrates how to build a **compliant Real World Asset (RWA) token** on Hedera EVM.
 
 ## High-Level Architecture
+```
 Frontend (React + TypeScript + Vite)
 ↓ (wagmi + viem)
 Hedera EVM Testnet
@@ -11,7 +12,7 @@ Hedera EVM Testnet
 RWAComplianceToken.sol  ← ERC-20 with compliance hooks
 ↓
 ComplianceRegistry.sol  ← On-chain whitelist/KYC simulation
-
+```
 
 ## Key Design Decisions
 

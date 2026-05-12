@@ -19,6 +19,6 @@ npm install
 cd frontend && npm install
 ```
 
-See `docs/DEPLOYMENT.md` for deployment instructions.
+See the [Deployment Guide](docs/DEPLOYMENT.md) for detailed deployment instructions.
 
 Made with ❤️ as an educational resource for the Hedera ecosystem.
