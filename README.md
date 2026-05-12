@@ -2,6 +2,13 @@
 
 A complete beginner-to-intermediate educational project that walks you through building, deploying, and interacting with a **Real World Asset (RWA) compliance token** on the **Hedera EVM testnet**.
 
+
+## Live Demo
+
+Try the working demo here:  
+**[https://hedera-first-rwa-dapp-67qtx3ov2-kris-bennetts-projects.vercel.app/](https://hedera-first-rwa-dapp-67qtx3ov2-kris-bennetts-projects.vercel.app/)**
+
+
 ---
 
 ## Table of Contents
