@@ -1,0 +1,17 @@
+{
+  "network": "hederaTestnet",
+  "chainId": 296,
+  "deployedAt": "2026-05-12T14:24:31.613Z",
+  "deployer": "0xC171708D53388c472a5f2bF6d2f856d075961Fb6",
+  "contracts": {
+    "ComplianceRegistry": {
+      "address": "0xd8b4eac75EeA4381819b495AB7ef19E765ad09a6"
+    },
+    "RWAComplianceToken": {
+      "address": "0x3B1FA2Ff85aB2Bf701dc2930Bd44267d67710adb",
+      "name": "Hedera RWA Demo Token",
+      "symbol": "HRWAT",
+      "maxSupply": 1000000
+    }
+  }
+}

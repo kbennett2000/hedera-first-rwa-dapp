@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // ES2020 is compatible with all modern browsers and Node ≥ 14
+    "target": "ES2020",
+    // Required when using class fields (used by Vite internals)
+    "useDefineForClassFields": true,
+    // DOM types for browser APIs; DOM.Iterable for for-of on NodeLists
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    // ESNext modules so Vite can tree-shake properly
+    "module": "ESNext",
+    // Skip type-checking node_modules (speeds up compilation)
+    "skipLibCheck": true,
+
+    // ── Module resolution ───────────────────────────────────────────────
+    // "bundler" tells TypeScript to trust Vite's module resolution rules
+    "moduleResolution": "bundler",
+    // Allows `import Foo from './Foo.tsx'` (required with bundler resolution)
+    "allowImportingTsExtensions": true,
+    // Allows `import data from './data.json'`
+    "resolveJsonModule": true,
+    // Each file is compiled independently (required for Vite's transform)
+    "isolatedModules": true,
+    // Don't emit .js files — Vite handles that
+    "noEmit": true,
+    // Enable JSX transformation via the automatic runtime (no React import needed)
+    "jsx": "react-jsx",
+
+    // ── Type strictness ─────────────────────────────────────────────────
+    "strict": true,
+    // Intentionally NOT setting noUnusedLocals/noUnusedParameters
+    // so learners aren't blocked by TS errors while exploring the code.
+
+    // Scope type lookups to the frontend's own node_modules only.
+    // Without this, TypeScript can accidentally pick up @types packages
+    // installed by Hardhat in the root node_modules (e.g. minimatch).
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

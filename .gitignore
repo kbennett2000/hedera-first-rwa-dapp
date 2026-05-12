@@ -1,0 +1,29 @@
+# =============================================================================
+# .gitignore — files that should NEVER be committed to version control
+# =============================================================================
+
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Hardhat / Solidity build artifacts ───────────────────────────────────────
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# ── Node.js ──────────────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+
+# ── Deployment outputs (contain contract addresses — commit if you want) ─────
+# deployments.json   # Uncomment this line if you don't want to commit addresses
+
+# ── Editor / OS ──────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
