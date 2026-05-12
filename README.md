@@ -66,6 +66,19 @@ Try the working demo here:
 
 ## 2. Key Concepts
 
+
+### So What???
+Why does any of this matter? Great question! By going through this module you will have SUCCESSFULLY:
+- Deployed a compliance-enforced RWA token contract to Hedera Testnet
+- Built and run a full-stack React + TypeScript frontend
+- Minted tokens as the contract owner
+- Transferred tokens between KYC-approved addresses
+- Produced a working, portfolio-ready dApp that demonstrates real-world RWA compliance patterns (on-chain whitelist + transfer restrictions)
+
+
+
+
+
 ### What is a Real World Asset (RWA)?
 
 RWA tokenization converts ownership rights in physical or financial assets into blockchain tokens:
